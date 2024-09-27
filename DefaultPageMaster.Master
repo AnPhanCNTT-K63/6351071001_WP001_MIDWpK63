@@ -41,7 +41,9 @@
                 
                 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
                 </asp:TreeView>
-                Course Category Available
+                <hr class="divider" />
+        <span>Course Category Available</span>
+        
                 <uc1:ucCategoryList runat="server" id="ucCategoryList" />
 
             </div>
