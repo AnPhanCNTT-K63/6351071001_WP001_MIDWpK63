@@ -12,7 +12,7 @@
         <td>Course name:</td>
         <td>
             <asp:TextBox ID="TextBoxName" runat="server"></asp:TextBox>
-            
+       
         </td>
         
     </tr>
@@ -51,12 +51,6 @@
     </tr>
 </table>
 
-
-
-
-
-
-
 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="EntityDataSource1" AllowPaging="True" AllowSorting="True">
     <Columns>
         <asp:BoundField DataField="ID" HeaderText="No." ReadOnly="True" SortExpression="ID" />
@@ -80,13 +74,6 @@
     </Columns>
 
 </asp:GridView>
-
-
-
-
-
-
-
 
 <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=QLKhoaHocEntities" DefaultContainerName="QLKhoaHocEntities" EnableDelete="True" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="Courses">
 </asp:EntityDataSource>
